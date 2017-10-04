@@ -2,7 +2,7 @@
 
 #Import Data
 from xps_data_extractor import XPSImporter
-xps_importer = XPSImporter()
+xps_importer = XPSImporter(put_dir_here)
 result = xps_importer.load()
 
 #Normalize
