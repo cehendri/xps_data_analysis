@@ -15,4 +15,5 @@ result = xps_importer.load()
 
 #Identify Outliers
 
-return result
+print(result)
+
