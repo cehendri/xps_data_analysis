@@ -16,7 +16,7 @@ Input:
 * xps_input_format: name of input data format, default ='xlsx'
 * elements: list of elements to look data for, dafault = ['O', 'F', 'C']
 
-Output: 
+Output in .json format: 
 data structure{
   element_1: {
     experiment_1: [binding_energies, abandance],
