@@ -12,9 +12,9 @@
 Utility to read experimental XPS output
 Input:
 * dir_path: path to folder with experimental data
+* elements: list of elements to look data for, dafault = ['C']
 * xps_input_mask: experimental data output mask, default = 'Multiplex Data'
 * xps_input_format: name of input data format, default ='xlsx'
-* elements: list of elements to look data for, dafault = ['O', 'F', 'C']
 
 Output in .json format: 
 data structure{
@@ -32,5 +32,5 @@ data structure{
 }
 
 from xps_data_extractor import XPSImporter
-xps_importer = XPSImporter()
+xps_importer = XPSImporter(dir_path='', elements=[])
 result = xps_importer.load()
